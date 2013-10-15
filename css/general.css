@@ -3,6 +3,34 @@ html {
 	font-size: 14px;
 }
 
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  background: #95c9c3 url(../img/grunge.png) repeat-x center 150px;
+}
+body a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+body p {
+  margin-bottom: 21px;
+}
+#main h1,
+#main h2,
+#main h3,
+#main h4,{
+  font-family: mensch;
+  line-height: 1.3em;
+}
+
+
+/*
 body {
 	background-color: #FEFEFC;
 }
