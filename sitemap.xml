@@ -10,7 +10,7 @@
 		<loc> is the full URL for the page on your site, including domain 
 		REQUIRED
 	-->
-      <loc>http://robots.com</loc>
+      <loc>https://github.com/gracemorton/large-data-website-coffee</loc>
 	  <!--
 	  	The last modified date
 		OPTIONAL
@@ -41,7 +41,7 @@
    </url>
    
    <url>
-   	<loc>http://en.wikipedia.org/wiki/Robot">Wikipedia: Robot</loc>
+   	<loc>http://en.wikipedia.org/wiki/Coffee">Wikipedia: Coffee</loc>
    </url>
 
 </urlset> <?xml version="1.0" encoding="UTF-8"?>

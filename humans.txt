@@ -1,1 +1,28 @@
-© Grace Morton
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Grace Morton <grace.morton@hotmail.com>
+GitHub: https://github.com/gracemorton
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Grid css from Prof then added to by Grace Morton
+
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Adobe Dreamweaver CC
+- Git + GitHub
+- Mou
+
+## Hosting
+
+- Github <http://github.com>
