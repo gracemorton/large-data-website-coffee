@@ -22,21 +22,8 @@ body p {
   margin-bottom: 21px;
   color:rgba(255,255,255,1);
 }
-#main h1,
-#main h2,
-#main h3,
-#main h4,{
-  font-family: mensch;
-  line-height: 1.3em;
-}
 
 
-
-/* HEADER ----------------------------------------------------*/
-header {
-  background: url(../img/header.png);
-  min-height: 100px;
-}
 header #logo:hover {
   opacity: 0.8;
 }
@@ -53,11 +40,10 @@ body {
 /* Header and Nav */
 .logo {
 	text-align: center;
-	margin-top: 1em;
 }
 
 
-h1 {
+h1{
 	 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   	line-height: 1.3em;
 	margin-left: 8px;
@@ -74,7 +60,6 @@ blockquote {
 	text-transform: none;
 	color:#FFF;
 	line-height: 1.5em;
-
 }
 
 
@@ -92,17 +77,18 @@ header .logo {
 }
 
 nav ul {
-	padding-left: 0px
-	
+	padding-left: 0px;
+	background-color: #F63;	
 }
 
 nav ul li {
+	display: inline;
+	padding:1em;
 	font-size: 16px;
 	list-style-type: none;
 	letter-spacing: normal;
 	text-align: center;
 	padding-bottom: 3px;
-	
 }
 
 
@@ -110,6 +96,8 @@ a:link {text-decoration:none; color:#FFF}
 a:visited {text-decoration:none; color:#AFCFE0}
 a:hover {text-decoration:none; color:#654A35;}
 a:active {text-decoration:none; color: #654A35;}
+
+
 
 @media only screen and (min-width: 33.75em) {
 	
@@ -120,6 +108,8 @@ a:active {text-decoration:none; color: #654A35;}
 	nav ul {
 		text-align: center;
 		padding-top: 10px;
+		background-color:transparent;
+
 	}
 	
 	nav ul li {
@@ -130,6 +120,12 @@ a:active {text-decoration:none; color: #654A35;}
 }
 
 @media only screen and (min-width: 40em) {
+	
+	/* HEADER ----------------------------------------------------*/
+header {
+  background: url(../img/header.png);
+  min-height: 100px;
+}
 	
 	h1 {
 		font-size:22px;
