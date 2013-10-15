@@ -1,0 +1,9 @@
+# https://github.com/gracemorton/large-data-website-coffee
+
+#show search engines where to find our site map
+Sitemap: https://github.com/gracemorton/large-data-website-coffee/sitemap.xml
+
+User-Agent: *
+
+# Block images from showing in search results
+# Disallow: /img
