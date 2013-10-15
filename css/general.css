@@ -9,7 +9,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5em;
-  background: #95c9c3 url(../img/grunge.png) repeat-x center 150px;
+  background:#003 url(../img/grunge.png) repeat-x center 150px;
 }
 body a {
   text-decoration: none;
@@ -20,6 +20,7 @@ body a {
 }
 body p {
   margin-bottom: 21px;
+  color:rgba(255,255,255,1);
 }
 #main h1,
 #main h2,
@@ -30,25 +31,63 @@ body p {
 }
 
 
-/*
+
+/* HEADER ----------------------------------------------------*/
+header {
+  background: url(../img/header.png);
+  min-height: 100px;
+}
+header #logo:hover {
+  opacity: 0.8;
+}
+header #logo img {
+  display: block;
+  margin: 30px auto;
+}
+
+
 body {
-	background-color: #FEFEFC;
+	background-color:#003;
 }
 
 /* Header and Nav */
 .logo {
 	text-align: center;
+	margin-top: 1em;
 }
+
 
 h1 {
+	 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  	line-height: 1.3em;
 	margin-left: 8px;
 	margin-top: 20px;
-	font-size: 16px;
+	font-size: 23px;
 	text-transform: uppercase;
-	color:#BBA68E;
+	color:#F63;
 }
 
-header .logo h1{
+blockquote {
+	margin-left: 8px;
+	margin-top: 20px;
+	font-size: 18px;
+	text-transform: none;
+	color:#FFF;
+	line-height: 1.5em;
+
+}
+
+
+
+h2 {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  line-height: 1.3em;
+  color:rgba(255,255,255,1);
+}
+
+
+
+header .logo {
 	text-align: center;
 }
 
