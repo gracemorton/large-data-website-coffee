@@ -4,7 +4,6 @@ html {
 }
 
 
-
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -29,12 +28,16 @@ header #logo:hover {
 }
 header #logo img {
   display: block;
-  margin: 30px auto;
+  margin: 20px auto;
+}
+header {
+background: url(../img/header.png);
+ max-height: 100px;
 }
 
-
 body {
-	background-color:#003;
+	background: #95c9c3 url(../img/grunge.png) repeat-x center 150px;
+	/*background-color:#003;*/
 }
 
 /* Header and Nav */
@@ -78,13 +81,19 @@ header .logo {
 
 nav ul {
 	padding-left: 0px;
-	background-color: #F63;	
+	background:url(../img/filter.png);
+	background-repeat:no-repeat;
+	padding-top: 15px;
+	padding-bottom: 20px;
+
+
 }
 
 nav ul li {
 	display: inline;
 	padding:1em;
 	font-size: 16px;
+	color:rgba(0,51,153,1);
 	list-style-type: none;
 	letter-spacing: normal;
 	text-align: center;
@@ -107,7 +116,9 @@ a:active {text-decoration:none; color: #654A35;}
 	
 	nav ul {
 		text-align: center;
-		padding-top: 10px;
+		padding-top: 15px;
+		padding-bottom: 20px;
+
 		background-color:transparent;
 
 	}
@@ -123,8 +134,8 @@ a:active {text-decoration:none; color: #654A35;}
 	
 	/* HEADER ----------------------------------------------------*/
 header {
-  background: url(../img/header.png);
-  min-height: 100px;
+background: url(../img/header.png);
+ min-height: 50px;
 }
 	
 	h1 {
