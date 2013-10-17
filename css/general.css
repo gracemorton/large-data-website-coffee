@@ -19,10 +19,17 @@ body a {
 }
 body p {
   margin-bottom: 21px;
-  color:rgba(255,255,255,1);
+  color:rgba(102,102,102,1);
 }
 
-
+article {
+	width:80%;
+	background-color:#fff;
+margin-top:0;
+margin-right:auto;
+margin-bottom: 0;
+margin-left:auto;
+}
 header #logo:hover {
   opacity: 0.8;
 }
@@ -93,7 +100,7 @@ nav ul li {
 	display: inline;
 	padding:1em;
 	font-size: 16px;
-	color:rgba(0,51,153,1);
+	color:#333;
 	list-style-type: none;
 	letter-spacing: normal;
 	text-align: center;
@@ -166,7 +173,7 @@ h2 {
 }
 
 h3 {
-	color: #AFCFE0;
+	color:#666;
 	font-size: 16px;
 }
 
@@ -179,9 +186,15 @@ p {
 /*Grid*/
 
 .flex-img {
+	width:80%;
+margin-top:0;
+margin-right:auto;
+margin-bottom: 0;
+margin-left:auto;
+
 	display: block;
-	width: 100%;
-}
+	alignment-adjust:middle;
+	}
 
 .grid {
 	overflow: hidden;
@@ -225,4 +238,12 @@ p {
 		width: 100%;
 	}
 	
+	article {
+	width:80%;
+	background-color:#fff;
+margin-top:0;
+margin-right:auto;
+margin-bottom: 0;
+margin-left:auto;
+}
 }
