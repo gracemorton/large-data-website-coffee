@@ -49,7 +49,6 @@ header #logo img {
 }
 header {
 background: url(../img/header.png);
- max-height: 100px;
 }
 
 body {
@@ -98,7 +97,6 @@ header .logo {
 
 nav{
 	margin: 0;
-	margin-bottom:4em;	
 }
 
 nav ul {
@@ -106,8 +104,8 @@ nav ul {
 	background:url(../img/filter.png);
 	background-repeat:no-repeat;
 	padding-top: 15px;
-	padding-bottom: 20px;
-
+	padding-bottom: 7px;
+	margin-bottom: 0;
 
 }
 
