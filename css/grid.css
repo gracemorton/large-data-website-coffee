@@ -9,6 +9,7 @@
   word-spacing: -0.43em;
 }
 .unit {
+	
   display: inline-block;
   *display: inline;
   zoom: 1;
@@ -19,10 +20,17 @@
 }
 .unit-spacer {
   padding: 8px;
+  border-right:thin rgba(102,102,102,1);
 }
 .unit-spacer2 {
- margin-top:1.65em;
-  padding: 8px;
+	background-image:url(../img/noisy-texture-100x100-o5-d10-c-f5eeda-t0.png);
+	background-repeat:repeat;
+	margin-top:1.65em;
+	padding: 8px;
+}
+
+.unit-spacer3 {
+	 padding: 1em;
 }
 /*.unit-spacer3 {
 	width: 90%;
