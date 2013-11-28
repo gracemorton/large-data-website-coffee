@@ -6,8 +6,9 @@ html {
 }
 
 /* HEADER ----------------------------------------------------*/
-
 header {
+	background-image:url(../img/noisy-texture-100x100-o5-d10-c-b83d27-t0.png);
+	background-repeat:repeat;	
 	min-height: 150px;
 	margin: -1em;
 }
@@ -211,6 +212,7 @@ body {
   
   /*background:#003 url(../img/grunge.png) repeat-x center 150px;*/
 }
+
 @media only screen and (min-width: 240px) {
 body {
 	max-width:none;
