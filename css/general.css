@@ -194,8 +194,6 @@ nav {
 }
 
 
-
-
 .button{
 	background-color:rgba(204,51,51,1);
 	padding: 7px;
@@ -203,13 +201,23 @@ nav {
 	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
+
 body {
+	max-width: 700px;
+	margin: 0 auto;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5em;
   
   /*background:#003 url(../img/grunge.png) repeat-x center 150px;*/
 }
+@media only screen and (min-width: 240px) {
+body {
+	max-width:none;
+}
+}
+
+
 body a {
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
