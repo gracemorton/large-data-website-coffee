@@ -1,9 +1,11 @@
 <!doctype html>
 <html>
 <head>
-	<title>COFFEE - Caffine facts from past to present</title>
+	<title>COFFEE - Caffeine facts from past to present</title>
     <link href="css/general.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
+	<link href="css/accessibility.css" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,7 +13,7 @@
 	
 	<!-- Facebook -->
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="COFFEE - Caffine facts from past to present">
+	<meta property="og:title" content="COFFEE - Caffeine facts from past to present">
 	<meta property="og:url" content="http://cupofjoe.com/to-this/article.html">
 	<!-- Image Size:  minimum 200x200; recommend 1500x1500 -->
 	<meta property="og:image" content="http://domain.com/img/coffee-owl-crop-2.jpg">
@@ -20,39 +22,53 @@
 
 	<!--Twitter -->
 	<meta property="twitter:card" content="summary">
-	<meta property="twitter:title" content="COFFEE - Caffine facts from past to present">
+	<meta property="twitter:title" content="COFFEE - Caffeine facts from past to present">
 	<meta property="twitter:url" content="http://cupofjoe.com/to-this/article.html">
 	<!-- Image Size:  minimum 120x120 -->
 	<meta property="twitter:image" content="http://domain.com/img/coffee-owl-crop-2.jpg">
 	<meta property="twitter:discription" content="Everything you need to know about coffee">
 	
+	<script src="js/modernizr.js"></script>
 	
 	
 </head>
-<body>
+<body id="top">
 
-<header class="clearfix">
-<div class="grid">
-
-	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		<header id="header" class="clearfix">
-			<div class="logo">
-				<h1><a href="index.html" rel="home"><img src="img/logo-biglodge-02.png" class="flex-img" alt="cup-of-joe-title" ></a></h1>
-			</div> 
-		</header>      		
-	</div>
-
-	<nav class="unit unit-s-1 unit-m-2-3 unit-l-2-3">
-		<ul id="nav">
-			<li id="nav-item" class="nav-item-1"><a href="about.html">About</a></li>
-			<li id="nav-item" class="nav-item-2"><a href="coffee-roasts.html">Roasts</a></li>
-			<li id="nav-item" class="nav-item-3"><a href="">Health</a></li>
-			<li id="nav-item" class="nav-item-4"><a href="">Fun Facts</a></li>
-		</ul>
-	</nav>	
-	
-</div>
+<ul class="skiplinks">
+	<li><a href="#main">Skip to primary content</a></li>
+	<li><a href="#complementary">Skip to secondary content</a></li>
+	<li><a href="#navigation">Skip to navigation content</a></li>
+</ul>
+<!-- HEADER -->
+<header>
+		<!-- header wrapper -->
+		<div class="wrapper cf" role="banner">
+			<div id="logo">
+				<a href="index.html" ><img src="img/logo-biglodge-02.png" alt="" /></a>
+			</div>
+		</div><!-- ENDS header wrapper -->
+			
+		<!-- nav -->
+		<nav class="cf" role="navigation" id="navigation">
+			<div class="wrapper cf">
+				<ul id="nav" class="sf-menu">
+						<li class="current-menu-item"><a href="index.html">HOME<i><b></b></i></a></li>
+						<li><a href="about.html">ABOUT<i><b></b></i></a></li>
+						<li><a href="coffee-roasts.html">ROASTS<i><b></b></i></a></li>
+						<li><a href="#">HEALTH<i><b></b></i></a></li>
+						<li><a href="#">FUN FACTS<i><b></b></i></a></li>
+				</ul>
+				<div id="combo-holder"></div>
+			</div>
+		</nav>
+		<!-- ends nav -->	
 </header>
+	<!-- ENDS HEADER -->
+	
+	
+	<!-- MAIN -->
+	<div role="main" id="main">
+		<div class="wrapper">
 
 
 
@@ -65,61 +81,73 @@
 			
 	<div class="unit unit-s-1 unit-m-1 unit-l-1-3">
 		<div class="unit-spacer">
-		<h1>There is no greater love then the love for caffeine!</h1>
-		<blockquote>Morning <strong>cup of Joe,</strong> the start to millions of people's day.
-	It's the thing that gets us through our day. Most of us are aware of the effects that <strong>too much caffine</strong> can have. We usually drink it anyway. It's a sense of comfort, a lifestyle. But how much do you really know about your favourtie beverage?</blockquote>			
+			<main role="main" id="main">
+				<h1>There is no greater love then the love for caffeine!</h1>
+				<blockquote>Morning <strong>cup of Joe,</strong> the start to millions of people's day. It's the thing that gets us through our day. Most of us are aware of the effects that <strong>too much caffeine</strong> can have. We usually drink it anyway. It's a sense of comfort, a lifestyle. But how much do you really know about your favourtie beverage?</blockquote>	
+			</main>		
 		</div>
 	</div>
 	
 	<div class="unit unit-s-1 unit-m-1 unit-l-1">
 		<h1>News</h1>
-		<hr>
+		<hr class="horizontal-line">
 	</div>
+</div>
+
+<div class="grid buckets">
 	
 	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		<div class="unit-spacer">
+		<div class="unit-spacer3">
+		<aside role="complementary" id="complementary">
 			<h3>COFFEE ACTUALLY GOOD FOR YOU?</h3>
-			<p>Morning cup of Joe, the start to millions of people's day.
-	It's the thing that gets us through our day. Most of us are aware of the effects that too much caffine can have. We usually drink it anyway. It's a sense of comfort, a lifestyle. But how much do you really know about your favourtie beverage?</p>
-				<a href="#" class="button">Read More</a>			
+			<p>Coffee isn't just warm and energizing, it may also be extremely good for you.
+In recent years and decades, scientists have studied the effects of coffee on various aspects of health and their results have been nothing short of amazing.</p>
+<p>Here are 7 reasons why coffee may actually be one of the healthiest beverages on the planet.</p>
+				<a href="#" class="button">Read More</a>		
+			</aside>	
 		</div>
 	</div>
 
 	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		<div class="unit-spacer">
+		<div class="unit-spacer3 vertical-lines">
 			<h3>NEW DISCOVERIES ABOUT CAFFEINE</h3>
-            <p>Morning cup of Joe, the start to millions of people's day.
-It's the thing that gets us through our day. Most of us are aware of the effects that too much caffine can have. We usually drink it anyway. It's a sense of comfort, a lifestyle. But how much do you really know about your favourtie beverage?</p>
+            <p>Until it has been secured, that first cup of coffee is, for many of us, the highest priority of the day. Despite many theories, and many more studies, the exact mechanisms by which caffeine energizes our minds and bodies are still far from understood. With new discoveries in genetics, and new methods to quantify metabolic activity, the incidentals of coffee consumption can now be counted as more than ritual — they have become science.</p>
 	<a href="#" class="button">Read More</a>
 		</div>
 	</div>
 
 	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		<div class="unit-spacer">
-			<h3>NEW DISCOVERIES ABOUT CAFFEINE</h3>
-            <p>Morning cup of Joe, the start to millions of people's day.
-It's the thing that gets us through our day. Most of us are aware of the effects that too much caffine can have. We usually drink it anyway. It's a sense of comfort, a lifestyle. But how much do you really know about your favourtie beverage?</p>
+		<div class="unit-spacer3">
+			<h3>GREEN COFFEE BEAN DISCOVERY</h3>
+            <p>Everyone knows that caffeine has uplifting and wakening effects. Many health professionals actually warn against too much caffeine. So why would they be excited about a coffee bean extract? It has to do with the fact that coffee beans have different properties when they are in their natural green state. That is why it was important that the extract everyone was getting excited about was a green coffee bean extract. Roasted coffee beans have a very well-known effect on people. But green coffee beans take on a whole new effect on people.</p>
 	<a href="#" class="button">Read More</a>
 		</div>
 	</div>
 </div>
-        
+
+
 <!--
-<div class="grid">
-
-	<div class="unit unit-s-hidden unit-m-1-3 unit-l-1-3">
-    	<img src="http://placehold.it/200x200" class="flex-img" alt="">
-    </div>
-    
-    <div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-3">
-    	<img src="http://placehold.it/200x200" class="flex-img" alt="">
-    </div>
-    
-    <div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-3">
-    	<img src="http://placehold.it/200x200" class="flex-img" alt="">
-    </div>
+<footer>
+	<!-- Content Infor defines things like copyright, privacy, terms of use -->
+	<!--<p role="contentinfo">© GraySeaCreative</p>-->
+	<a href="#top">Back to Top</a>
+<!--</footer>        
+		-->
 
 </div>
--->
+
+
+<!---Google Analytics, add to all clients websites -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46040260-1', 'gracemorton.github.io');
+  ga('send', 'pageview');
+
+</script>
+
 </body>
 </html>
