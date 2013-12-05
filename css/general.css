@@ -22,6 +22,44 @@ header #logo img {
 	margin: 40px auto;
 	border: 0;
 }
+
+h1{
+	font-style:normal;
+	font-family: "Mensch";
+	font-size: 23px;
+	font-style:normal;
+  	line-height: 1.3em;
+	margin-left: 8px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	color:#069;
+	text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.3);
+	/*color: rgba(204,51,51,1);*/
+}
+
+h2{
+	font-style:normal;
+	font-family: "Mensch";
+	font-size: 50px;
+	font-style:normal;
+  	line-height: 1.3em;
+	margin-left: 8px;
+	margin-top: 20px;
+	color:#069;
+	/*color: rgba(204,51,51,1);*/
+}
+
+blockquote {
+	margin-left: 8px;
+	margin-top: 20px;
+	font-size: 18px;
+	text-transform: none;
+	color:#FFF;
+	line-height: 1.5em;
+}
+
+
 /* NAVIGATION ------------------------------------------------------------*/
 nav {
 	height: 68px;
@@ -180,17 +218,28 @@ nav {
   line-height: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-.footer{
+/*
+#circle {
+	width: 100px;
+	height: 100px;
+	background-image:url(../img/noisy-texture-100x100-o5-d10-c-211a15-t0.png);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin:auto;
 	
+}*/
+
+
+footer{
+	/*
+	background-image:url(../img/noisy-texture-100x100-o5-d10-c-211a15-t0.png);
+	background-repeat:repeat;*/
+	
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/*height: 120px;*/
 	text-align: center;
 }
 
@@ -213,11 +262,72 @@ body {
   /*background:#003 url(../img/grunge.png) repeat-x center 150px;*/
 }
 
+
+
+
+#bottom { /*add brown/gray grainy colour to this*/
+	background-image:url(../img/noisy-texture-100x100-o5-d10-c-211a15-t0.png);
+	background-repeat:repeat;
+ /* background: #4d4d4d;*/
+  position: relative;
+  min-height: 20px;
+  border-top: 1px solid #656565;
+}
+#bottom #widget-trigger-holder {
+  position: relative;
+  left: 50%;
+  text-align: center;
+  float: left;
+  margin-top: -15px;
+}
+#bottom #widget-trigger-holder #widget-trigger {
+  display: block;
+  position: relative;
+  float: left;
+  right: 50%;
+  width: 35px;
+  height: 36px;
+  background:url(../img/widget-trigger-grainy2.png) no-repeat 0px 0px;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: color 0 ease-in;
+  transition: none;
+}
+#bottom #widget-trigger-holder #widget-trigger.tab-closed {
+  background-position: 0px -36px;
+}
+#bottom #content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 14px;
+  line-height: 1.5em;
+  clear: both;
+}
+#bottom #content a {
+  color: #fdd600;
+}
+#bottom #content a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 240px) {
 body {
 	max-width:none;
 }
-}
+
 
 
 body a {
@@ -261,12 +371,12 @@ body p {
 
 article {
 	width:80%;
-	background-color:#F4E8D4;
+	/*background-color:#F4E8D4;
 /*	background-color:#F7F6E1;
 */
 	margin-top:0;
 	margin-right:auto;
-	margin-bottom: 0;
+	margin-bottom: 5.1em;
 	margin-left:auto;
 }
 
@@ -337,7 +447,7 @@ header {
 body {
 	background: #95c9c3 url(../img/grunge.png) repeat-x center 150px;
 	/*background-color:#003;*/
-}*/
+}
 
 /* Header and Nav */
 .logo {
@@ -346,36 +456,10 @@ body {
 }
 
 
-h1{
-	font-style:normal;
-	font-family: "Mensch";
-	font-size: 20px;
-  	line-height: 1.3em;
-	margin-left: 8px;
-	margin-top: 20px;
-	text-transform: uppercase;
-	color:#069;
-	/*color: rgba(204,51,51,1);*/
-}
-
-blockquote {
-	margin-left: 8px;
-	margin-top: 20px;
-	font-size: 18px;
-	text-transform: none;
-	color:#FFF;
-	line-height: 1.5em;
-}
 
 
 
-h2 {
-  font-family:Georgia, "Times New Roman", Times, serif;
-  line-height: 1.3em;
-  color: rgba(204,51,51,1);
-  margin-left: 1em;
-	margin-bottom: 0;
-}
+
 
 
 
@@ -493,7 +577,7 @@ p {
 .banner{
 	float:none;
 }
-
+/*
 footer {
 	background-image:url(../img/noisy-texture-100x100-o5-d10-c-b83d27-t0.png);
 	background-repeat:repeat;	
@@ -502,8 +586,8 @@ footer {
 	margin-left:-1.5em;
 	bottom:0px;
 	width:100%;
-	height:80px;   /* Height of the footer */
-}
+	height:80px;   /* Height of the footer 
+}*/
 	
 }
 
@@ -516,17 +600,18 @@ footer {
 
 
 @media only screen and (min-width: 60em) {
-header {
-margin: -1.5em;
+h1{
+	font-size: 45px;
 }
 
-body {
-	padding: 1em;	
+header {
+margin: -1.5em;
 }
 
 
 
 /* NAVIGATION ------------------------------------------------------------*/
+
 nav {
 	height: 68px;
 	float: left;
@@ -608,6 +693,7 @@ nav {
   border-bottom: none;
 }
 /* COMBO NAVIGATION ------------------------------------------------------------*/
+
 #comboNav {
   width: 100%;
   margin-top: 20px;

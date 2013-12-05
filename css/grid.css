@@ -30,7 +30,18 @@
 }
 
 .unit-spacer3 {
-	 padding: 1em;
+	 padding: 1.25em;
+	 margin-bottom: 2em;
+}
+.unit-spacer4 {
+	padding: 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	margin-top: 5em;
+
+	text-align: center;
 }
 /*.unit-spacer3 {
 	width: 90%;
