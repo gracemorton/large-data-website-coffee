@@ -78,7 +78,7 @@ h1{
 	font-size: 23px;
 	font-style:normal;
   	line-height: 1.3em;
-	margin-left: 8px;
+	margin-left: 8px;nav
 	margin-top: 20px;
 	margin-bottom: 0;
 	text-transform: uppercase;
@@ -92,7 +92,7 @@ h1{
 
 h2{
 	font-style:normal;
-	font-family: "Mensch";
+font-family: 'Amatic SC', cursive; 
 	font-size: 50px;
 	font-style:normal;
   	line-height: 1.3em;
@@ -136,9 +136,9 @@ nav {
 	float: right;
 	position: relative;
 	left: 50%;
-	font-family: mensch;
+font-family: Tahoma, Geneva, sans-serif;
 	word-spacing: -0.1em;
-	font-size: 20px;
+	font-size: 30px;
   /* sub navigation -----------------------------------------------------*/
 }
 
@@ -215,7 +215,7 @@ nav {
 .headline {
 	color: #cb5432;
 	text-align: center;
-	font-family: mensch;
+	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size: 48px;
 	line-height: 1.3em;
 	word-spacing: -0.1em;
@@ -265,7 +265,7 @@ nav {
 	width: 60px;
 	background: #f3e4c8;
 	float: left;
-	font-family: mensch;
+	font-family: Tahoma, Geneva, sans-serif; 
 	padding-top: 10px;
 }
 .feature li .thumb .date span {
@@ -411,7 +411,7 @@ nav {
 	float: left;
 	position: relative;
 	left: 50%;
-	font-family: mensch;
+font-family: Tahoma, Geneva, sans-serif; 
 	word-spacing: -0.1em;
 	font-size: 17px;
 	line-height: 1em;
@@ -518,7 +518,7 @@ nav {
 	float: left;
 	position: relative;
 	left: 50%;
-	font-family: mensch;
+font-family: Tahoma, Geneva, sans-serif; 
 	word-spacing: -0.1em;
 	font-size: 17px;
 	line-height: 1em;
@@ -867,7 +867,7 @@ footer {
 	float: left;
 	position: relative;
 	left: 50%;
-	font-family: mensch;
+font-family:Tahoma, Geneva, sans-serif;
 	word-spacing: -0.1em;
 	font-size: 20px;
   /* sub navigation -----------------------------------------------------*/
@@ -909,7 +909,7 @@ nav {
 	float: left;
 	position: relative;
 	left: 50%;
-	font-family: mensch;
+font-family: Tahoma, Geneva, sans-serif;
 	word-spacing: -0.1em;
 	font-size: 20px;
   /* sub navigation -----------------------------------------------------*/
@@ -990,7 +990,7 @@ nav {
 .headline {
   color: #cb5432;
   text-align: center;
-  font-family: mensch;
+font-family: 'Amatic SC', cursive; 
   font-size: 48px;
   line-height: 1.3em;
   word-spacing: -0.1em;
