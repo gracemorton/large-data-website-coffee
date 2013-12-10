@@ -384,13 +384,10 @@ body {
 
 
 
-@media only screen and (min-width: 240px) {
+@media only screen and (min-width: 15em) {
 body {
-	max-width:none;
+	max-width: 100%;
 }
-
-
-
 
 
 /* NAVIGATION ------------------------------------------------------------*/
@@ -415,7 +412,7 @@ nav {
 	display: inline-block;
 	float: left;
 	position: relative;
-	left: 20%;
+	left: 50%;
 	font-family: mensch;
 	word-spacing: -0.1em;
 	font-size: 20px;
@@ -763,9 +760,26 @@ footer {
 }
 
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 60em) {
+	nav {
+	height: 68px;
+	float: left;
+	width: 100%;
+	margin-top: -5em;
+	position: relative;
+	}
 	
-	
+	#nav > li {
+	display: block;
+	float: left;
+	position: relative;
+	left: 50%;
+	font-family: mensch;
+	word-spacing: -0.1em;
+	font-size: 20px;
+  /* sub navigation -----------------------------------------------------*/
+}
+
 }
 
 
