@@ -40,22 +40,34 @@
 	<li><a href="#navigation">Skip to navigation content</a></li>
 </ul>
 
+
 <!-- HEADER -->
 <header>
+	<div class="list-group-item list-group-item-inline logo"><img src="{{site.baseurl}}/img/logo-biglodge-02.png" alt="logo"</div> 
 		<!-- header wrapper -->
-		<div class="wrapper cf" role="banner">
+		<!--<div class="wrapper cf" role="banner">
 			<div id="logo">
 				<a href="index.html" ><img src="img/logo-biglodge-02.png" alt="" /></a>
 			</div>
 		</div><!-- ENDS header wrapper -->
-			
+	
+<nav id="navigation">
+	<ul class="nav list-group list-group-item list-group-item-inline">
+			<li class="unit unit-s-1"><a href="{{site.baseurl}}/index.html" rel="HOME">HOME</a></li>
+			<li class="unit unit-s-1"><a href="{{site.baseurl}}/about.html" rel="ABOUT">ABOUT</a></li>		
+			<li class="unit unit-s-1"><a href="{{site.baseurl}}/coffee-roasts.html" rel="COFFEE ROASTS">COFFEE ROASTS</a></li>		
+			<li class="unit unit-s-1"><a href="{{site.baseurl}}/#.html" rel="HEALTH">HEALTH</a></li>
+			<li class="unit unit-s-1"><a href="{{site.baseurl}}/#.html" rel="FUN FACTS">FUN FACTS</a></li>			
+	</ul>
+</nav>	
 		<!-- nav -->
-		<nav class="cf" role="navigation" id="navigation">
+		<!--
+<nav class="cf" role="navigation" id="navigation">
 			<div class="wrapper cf">
 				<ul id="nav" class="sf-menu">
-						<li class="current-menu-item"><a href="index.html">HOME<i><b></b></i></a></li>
-						<li><a href="about.html">ABOUT<i><b></b></i></a></li>
-						<li><a href="coffee-roasts.html">ROASTS<i><b></b></i></a></li>
+						<li {% if page.url contains 'index' %}class="current-menu-item"{% endif %}><a href="index.html">HOME<i><b></b></i></a></li>
+						<li {% if page.url contains 'about' %}class="current-menu-item"{% endif %}><a href="about.html">ABOUT<i><b></b></i></a></li>
+						<li {% if page.url contains 'coffee-roasts' %}class="current-menu-item"{% endif %}><a href="coffee-roasts.html">ROASTS<i><b></b></i></a></li>
 						<li><a href="#">HEALTH<i><b></b></i></a></li>
 						<li><a href="#">FUN FACTS<i><b></b></i></a></li>
 				</ul>

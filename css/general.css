@@ -337,6 +337,111 @@ body {
 
 
 
+
+
+/* NAVIGATION ------------------------------------------------------------*/
+
+nav {
+	height: 68px;
+	float: left;
+	width: 100%;
+	margin-top: 0px;
+	position: relative;
+}
+
+#nav {
+	clear: left;
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: 50%;
+	text-align: center;
+}
+#nav > li {
+	display: inline-block;
+	float: left;
+	position: relative;
+	left: 20%;
+	font-family: mensch;
+	word-spacing: -0.1em;
+	font-size: 20px;
+  /* sub navigation -----------------------------------------------------*/
+}
+
+
+#nav > li.current-menu-item i,
+#nav > li.current_page_item i {
+  display: inline-block;
+}
+#nav > li a {
+  display: inline-block;
+  padding: 20px 10px 0px 10px;
+  color: #f3e4c8;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+#nav > li a:hover i {
+  display: inline-block;
+}
+#nav > li a i {
+  display: none;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 50%;
+  top: -4px;
+}
+#nav > li a i b {
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  left: -8px;
+  bottom: -7px;
+  padding-bottom: -3em;
+}
+#nav > li ul {
+  font-size: 14px;
+  font-family: Tahoma;
+  text-align: left;
+  margin-top: 19px;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
+}
+#nav > li ul li {
+  border-top: 1px solid #a03a26;
+  border-bottom: 1px solid #812f1e;
+}
+#nav > li ul li a {
+  padding: 10px;
+  background: #963724;
+}
+#nav > li ul li a:hover {
+  background: #a03a26;
+}
+#nav > li ul li:last-child {
+  border-bottom: none;
+}
+/* COMBO NAVIGATION ------------------------------------------------------------*/
+
+#comboNav {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  float: left;
+}
+/* MAIN ----------------------------------------------------*/#main .wrapper {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  min-height: 500px;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+
+
+
+
+
 body a {
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
