@@ -50,10 +50,11 @@ h1 {
 	color: #fff;
 	font-size: 55px;
 	text-align:center;
-	float: right;
+	/*float: right;
 	position: relative;
-	right: 45%;
-	margin-top: 1em;
+	right: 45%;*/
+	padding-top: 1em;
+	margin: 0;
 	}
 
 h2 { 
@@ -84,11 +85,11 @@ h1{
 	text-transform: uppercase;
 	color:#069;
 	text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.3);
-	/*color: rgba(204,51,51,1);*/
+	color: rgba(204,51,51,1);
 	
-*/
 
-}
+
+}*/
 
 h2{
 	font-style:normal;
@@ -114,29 +115,32 @@ blockquote {
 
 /* NAVIGATION ------------------------------------------------------------*/
 nav {
-	height: 68px;
-	float: left;
+	/*height: 68px;*/
+	/*float: left;*/
 	width: 100%;
 	margin-top: 0px;
 	position: relative;
+	padding-bottom: 1em;
   /*background: url(../img/ribbon.png) no-repeat top center;*/
 }
 #nav {
-	clear: left;
+	/*clear: left;
 	display: inline-block;
-	float: right;
+	float: right;*/
 	position: relative;
-	right: 50%;
+	/*right: 50%;*/
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 #nav > li {
 	margin-top: 0em;
 	padding: 0;
-	display: inline-block;
-	float: right;
+	display: block;
+	/*float: right;*/
 	position: relative;
-	left: 50%;
-font-family: Tahoma, Geneva, sans-serif;
+	/*left: 50%;*/
+font-family:"MS Serif", "New York", serif;
 	word-spacing: -0.1em;
 	font-size: 30px;
   /* sub navigation -----------------------------------------------------*/
@@ -173,7 +177,7 @@ font-family: Tahoma, Geneva, sans-serif;
 	left: -8px;
 	bottom: -7px;
 	padding-bottom: -3em;
-}
+}/*
 #nav > li ul {
 	font-size: 14px;
 	font-family: Tahoma;
@@ -194,7 +198,7 @@ font-family: Tahoma, Geneva, sans-serif;
 }
 #nav > li ul li:last-child {
 	border-bottom: none;
-}
+}*/
 /* COMBO NAVIGATION ------------------------------------------------------------*/
 #comboNav {
 	width: 100%;
@@ -215,7 +219,7 @@ font-family: Tahoma, Geneva, sans-serif;
 .headline {
 	color: #cb5432;
 	text-align: center;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:"MS Serif", "New York", serif;
 	font-size: 48px;
 	line-height: 1.3em;
 	word-spacing: -0.1em;
@@ -265,7 +269,7 @@ font-family: Tahoma, Geneva, sans-serif;
 	width: 60px;
 	background: #f3e4c8;
 	float: left;
-	font-family: Tahoma, Geneva, sans-serif; 
+	font-family:"MS Serif", "New York", serif;
 	padding-top: 10px;
 }
 .feature li .thumb .date span {
@@ -389,7 +393,7 @@ body {
 
 
 /* NAVIGATION ------------------------------------------------------------*/
-
+/*
 nav {
 	height: 68px;
 	float: left;
@@ -411,73 +415,22 @@ nav {
 	float: left;
 	position: relative;
 	left: 50%;
-font-family: Tahoma, Geneva, sans-serif; 
+font-family:"MS Serif", "New York", serif;
 	word-spacing: -0.1em;
 	font-size: 17px;
 	line-height: 1em;
-  /* sub navigation -----------------------------------------------------*/
-}
+}*/
+ /* sub navigation -----------------------------------------------------*/
 
 
-#nav > li.current-menu-item i,
-#nav > li.current_page_item i {
-  display: inline-block;
-}
-#nav > li a {
-  display: inline-block;
-  padding: 20px 10px 0px 10px;
-  color: #f3e4c8;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
-}
-#nav > li a:hover i {
-  display: inline-block;
-}
-#nav > li a i {
-  display: none;
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  left: 50%;
-  top: -4px;
-}
-#nav > li a i b {
-  position: absolute;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  left: -8px;
-  bottom: -7px;
-  padding-bottom: -3em;
-}
-#nav > li ul {
-  font-size: 14px;
-  font-family: Tahoma;
-  text-align: left;
-  margin-top: 19px;
-  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
-}
-#nav > li ul li {
-  border-top: 1px solid #a03a26;
-  border-bottom: 1px solid #812f1e;
-}
-#nav > li ul li a {
-  padding: 10px;
-  background: #963724;
-}
-#nav > li ul li a:hover {
-  background: #a03a26;
-}
-#nav > li ul li:last-child {
-  border-bottom: none;
-}
 /* COMBO NAVIGATION ------------------------------------------------------------*/
-
+/*
 #comboNav {
   width: 80%;
   margin-top: 20px;
   margin-bottom: 30px;
   float: left;
-}
+}*/
 /* MAIN ----------------------------------------------------*/#main .wrapper {
   margin-top: 60px;
   margin-bottom: 50px;
@@ -518,7 +471,7 @@ nav {
 	float: left;
 	position: relative;
 	left: 50%;
-font-family: Tahoma, Geneva, sans-serif; 
+font-family:"MS Serif", "New York", serif;
 	word-spacing: -0.1em;
 	font-size: 17px;
 	line-height: 1em;
@@ -867,7 +820,7 @@ footer {
 	float: left;
 	position: relative;
 	left: 50%;
-font-family:Tahoma, Geneva, sans-serif;
+font-family:"MS Serif", "New York", serif;
 	word-spacing: -0.1em;
 	font-size: 20px;
   /* sub navigation -----------------------------------------------------*/
@@ -892,7 +845,7 @@ nav {
 	height: 68px;
 	float: left;
 	width: 100%;
-	margin-top: -2em;
+	
 	position: relative;
   /*background: url(../img/ribbon.png) no-repeat top center;*/
 }
@@ -909,7 +862,7 @@ nav {
 	float: left;
 	position: relative;
 	left: 50%;
-font-family: Tahoma, Geneva, sans-serif;
+font-family:"MS Serif", "New York", serif;
 	word-spacing: -0.1em;
 	font-size: 20px;
   /* sub navigation -----------------------------------------------------*/
