@@ -63,6 +63,8 @@ h2 {
 	margin-top: 20px;
 	color: #069;/*color: rgba(204,51,51,1);*/
 	font-weight: 400;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 blockquote {
 	margin-left: 8px;
@@ -86,7 +88,7 @@ nav {
 	padding: 0;
 }
 #nav > li {
-	margin-top: 0.25em;
+	margin-top: 1em;
 	padding: 0;
 	display: block;
 	position: relative;
@@ -275,9 +277,10 @@ body {
 	text-decoration: underline;
 }
  @media only screen and (min-width: 15em) {
-h1 {
+/*h1 {
 	margin-bottom: .25em;
-}
+}*/
+
 body {
 	max-width: 100%;
 }
@@ -293,14 +296,13 @@ body {
 }
  @media only screen and (min-width: 30em) {
 /* NAVIGATION ------------------------------------------------------------*/
-h1 {
+/*h1 {
 	margin-bottom: .25em;
-}
+}*/
 nav {
 	height: 68px;
 	float: left;
 	width: 100%;
-	margin-top: -5em;
 	position: relative;
 }
 #nav {
@@ -417,7 +419,6 @@ article {
 	background-image: url(../img/noisy-texture-100x100-o5-d10-c-f5eeda-t0.png);
 	background-repeat: repeat;
 	background-color:rgba(248,240,228,1);
-	/*background: #f3e4c8;*/
 	color: #585246;
 	padding: 50px 30px 60px 30px;
 	box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
